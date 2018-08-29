@@ -13,11 +13,9 @@ API reference & usage instructions can be found [here][7].
 To get started, have a look at [echo.c][1] in the examples directory of the package.  A
 simple echo server is implemented.
 
-You can find the latest autobahn test results [here][3].
-
 Current Travis CI Build Status:
 
-[![Build Status][4]][5]
+[![Build Status][3]][5]
 
 ## Features
 
@@ -30,7 +28,7 @@ Current Travis CI Build Status:
 
  [1]: https://github.com/nilsenmiotto/libwebsock/blob/master/examples/echo.c
  [2]: http://libevent.org
- [3]: http://paydensutherland.com/autobahn
+ [3]: https://travis-ci.org/nilsenmiotto/libwebsock.svg?branch=master
  [4]: https://travis-ci.org/nilsenmiotto/libwebsock.png
  [5]: https://travis-ci.org/nilsenmiotto/libwebsock
  [6]: https://github.com/nilsenmiotto/libwebsock/wiki/Installation
