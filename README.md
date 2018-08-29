@@ -31,7 +31,7 @@ Current Travis CI Build Status:
  [1]: https://github.com/nilsenmiotto/libwebsock/blob/master/examples/echo.c
  [2]: http://libevent.org
  [3]: http://paydensutherland.com/autobahn
- [4]: https://travis-ci.org/payden/libwebsock.png
- [5]: https://travis-ci.org/payden/libwebsock
+ [4]: https://travis-ci.org/nilsenmiotto/libwebsock.png
+ [5]: https://travis-ci.org/nilsenmiotto/libwebsock
  [6]: https://github.com/nilsenmiotto/libwebsock/wiki/Installation
  [7]: https://github.com/nilsenmiotto/libwebsock/wiki/API
