@@ -28,10 +28,10 @@ Current Travis CI Build Status:
 * IPv6 support
 * No failures on Autobahn Test suite
 
- [1]: https://github.com/payden/libwebsock/blob/master/examples/echo.c
+ [1]: https://github.com/nilsenmiotto/libwebsock/blob/master/examples/echo.c
  [2]: http://libevent.org
  [3]: http://paydensutherland.com/autobahn
  [4]: https://travis-ci.org/payden/libwebsock.png
  [5]: https://travis-ci.org/payden/libwebsock
- [6]: https://github.com/payden/libwebsock/wiki/Installation
- [7]: https://github.com/payden/libwebsock/wiki/API
+ [6]: https://github.com/nilsenmiotto/libwebsock/wiki/Installation
+ [7]: https://github.com/nilsenmiotto/libwebsock/wiki/API
