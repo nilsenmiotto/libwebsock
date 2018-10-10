@@ -24,5 +24,4 @@
 
 inline uint32_t decode(uint32_t *state, uint32_t *codep, uint32_t byte);
 
-
 #endif /* UTF_H_ */

@@ -42,5 +42,4 @@ void libwebsock_bind_ssl(libwebsock_context *ctx, char *listen_host, char *port,
 void libwebsock_bind_ssl_real(libwebsock_context *ctx, char *listen_host, char *port, char *keyfile, char *certfile, char *chainfile);
 #endif
 
-
 #endif /* API_H_ */

@@ -21,29 +21,29 @@
 
 //this bit hides differences between systems on big-endian conversions
 #if defined(__linux__)
-#  include <endian.h>
+#include <endian.h>
 #elif defined(__FreeBSD__) || defined(__NetBSD__)
-#  include <sys/endian.h>
+#include <sys/endian.h>
 #elif defined(__OpenBSD__)
-#  include <sys/types.h>
-#  define be16toh(x) betoh16(x)
-#  define be64toh(x) betoh64(x)
+#include <sys/types.h>
+#define be16toh(x) betoh16(x)
+#define be64toh(x) betoh64(x)
 #endif
 
 #ifndef be16toh
-#  define be16toh(x) lws_be16toh(x)
+#define be16toh(x) lws_be16toh(x)
 #endif
 
 #ifndef be64toh
-#  define be64toh(x) lws_be64toh(x)
+#define be64toh(x) lws_be64toh(x)
 #endif
 
 #ifndef htobe16
-#  define htobe16(x) lws_htobe16(x)
+#define htobe16(x) lws_htobe16(x)
 #endif
 
 #ifndef htobe64
-#  define htobe64(x) lws_htobe64(x)
+#define htobe64(x) lws_htobe64(x)
 #endif
 
 #ifdef _WIN32
@@ -73,7 +73,6 @@
 #include "utf.h"
 #include "util.h"
 
-
 #define PORT_STRLEN 12
 #define LISTEN_BACKLOG 10
 #define FRAME_CHUNK_LENGTH 1024
@@ -102,7 +101,6 @@
 #define WS_CLOSE_MESSAGE_TOO_BIG 1009
 #define WS_CLOSE_UNEXPECTED_ERROR 1011
 
-
 #define STATE_SHOULD_CLOSE (1 << 0)
 #define STATE_SENT_CLOSE_FRAME (1 << 1)
 #define STATE_CONNECTING (1 << 2)
@@ -117,7 +115,6 @@
 extern pthread_mutex_t global_alloc_free_lock;
 
 //function defs
-
 
 int libwebsock_send_fragment(libwebsock_client_state *state, const char *data, unsigned int len, int flags);
 void libwebsock_send_cleanup(const void *data, size_t len, void *arg);
@@ -152,4 +149,3 @@ libwebsock_fragmented *libwebsock_fragmented_new(libwebsock_client_state *state)
 #ifdef WEBSOCK_HAVE_SSL
 void libwebsock_handle_accept_ssl(evutil_socket_t listener, short event, void *arg);
 #endif
-

@@ -1,0 +1,6 @@
+{
+	"files.associations": {
+		"websock.h": "c",
+		"stdint.h": "c"
+	}
+}
